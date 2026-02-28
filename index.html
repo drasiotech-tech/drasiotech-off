@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drasiotech - Solutions Digitales & Informatiques à Orléans</title>
-    <meta name="description" content="Drasiotech transforme vos idées en solutions digitales : développement d'applications mobiles, création de sites web professionnels, conseil informatique et gestion de parc en Centre-Val de Loire.">
-    
+    <title>Développement Web Orléans & Maintenance Informatique | Drasiotech</title>
+    <meta name="description" content="Besoin d'un site web ou d'une appli mobile à Orléans ? Drasiotech accompagne les entreprises du Centre-Val de Loire dans leur transformation digitale. Contactez-nous.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://drasiotech-tech.github.io/drasiotech-off/">
     <!-- Balises meta -->
     <meta name="keywords" content="drasiotech, Drasiotech Orléans, développement application mobile iOS Android, création site web, conseil stratégie digitale, maintenance informatique Orléans, gestion parc informatique, cybersécurité, solutions Cloud, Drasiotech-off">
     <meta property="og:title" content="Drasiotech - Solutions Digitales & Informatiques à Orléans" />
     <meta property="og:description" content="Développement mobile, web et maintenance informatique à Orléans." />
     <meta property="og:url" content="https://drasiotech-tech.github.io/drasiotech-off/" />
     <meta property="og:type" content="website" />
+    
     
     <!-- Balises de référencement Google -->
     <meta name="google-site-verification" content="GwgqtLK3EYER7OUiN1u0dzYGjR8x7W4avzeFAyO9YTA" />
@@ -27,7 +29,30 @@
       gtag('config', 'G-HRQVQXE3DK');
     </script>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+
+    <script type="application/ld+json">
+    <!-- JSON-LD -->
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Drasiotech",
+      "description": "Expert en développement web, applications mobiles et maintenance informatique à Orléans.",
+      "url": "https://drasiotech-tech.github.io/drasiotech-off/",
+      "telephone": "+33238123456",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rue des Ateliers",
+        "addressLocality": "Orléans",
+        "postalCode": "45000",
+        "addressRegion": "Centre-Val de Loire",
+        "addressCountry": "FR"
+      }
+    }
+</script>
 </head>
 <body>
     <!-- Barre de notificaion -->
@@ -54,14 +79,15 @@
                 <li><a href="#portfolio" aria-label="Portfolio Drasiotech">Portfolio</a></li>
                 <li><a href="#contact" aria-label="Contact Drasiotech Orléans">Contact</a></li>
             </ul>
-            <div class="hamburger" id="hamburger" aria-label="Menu mobile">
-                <span></span>
-                <span></span>
-                <span></span>
+            <button class="hamburger" id="hamburger"
+              aria-label="Ouvrir le menu de navigation"
+              aria-expanded="false"
+              aria-controls="navMenu"
+              type="button">
             </div>
         </div>
     </nav>
-
+   
     <!-- Accueil -->
     <header id="accueil" class="hero">
         <div class="container">
@@ -335,6 +361,7 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
