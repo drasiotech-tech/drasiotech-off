@@ -1,0 +1,6 @@
+# Robots.txt pour Drasiotech - https://drasiotech-tech.github.io/drasiotech-off/
+User-agent: *
+Allow: /
+
+# Emplacement du plan du site pour faciliter l'indexation
+Sitemap: https://drasiotech-tech.github.io/drasi0tech/sitemap.xml
